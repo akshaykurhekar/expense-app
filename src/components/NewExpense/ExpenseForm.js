@@ -3,7 +3,7 @@ import "./ExpenseForm.css";
 
 function ExpenseForm(props) {
   const [title, setTitle] = useState("");
-  const [amount, setAmount] = useState("");
+  const [amount, setAmount] = useState();
   const [date, setDate] = useState("");
 
   const titleChangeHandler = (event) => {
@@ -24,7 +24,7 @@ function ExpenseForm(props) {
       title: title,
       amount: amount,
       date: new Date(date),
-      id: Math.random().toString
+      id: Math.random().toString()
     };
 
     setAmount("");
