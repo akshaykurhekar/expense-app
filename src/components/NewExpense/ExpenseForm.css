@@ -24,3 +24,7 @@
   .new-expense__actions {
     text-align: right;
   }
+
+  .add-expense__actions {
+    text-align: center;
+  }
