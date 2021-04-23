@@ -8,7 +8,7 @@ const initialExpense = [
     id: 1,
     title: "Note Books",
     amount: 150.40,
-    date: new Date(2019, 2, 26),
+    date: new Date(2020, 2, 26),
   },
   {
     id: 2,
@@ -26,13 +26,13 @@ const initialExpense = [
     id: 4,
     title: "Electric Changes",
     amount: 250.50,
-    date: new Date(2021, 3, 20),
+    date: new Date(2020, 3, 20),
   },
   {
     id: 5,
     title: "Food expense ",
     amount: 450.22,
-    date: new Date(2021, 6, 21),
+    date: new Date(2020, 6, 21),
   },
 ];
 
