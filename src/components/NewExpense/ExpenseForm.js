@@ -22,7 +22,7 @@ function ExpenseForm(props) {
     event.preventDefault();
     const expenseData = {
       title: title,
-      amount: amount,
+      amount: +amount,
       date: new Date(date),
       id: Math.random().toString(),
     };
@@ -30,6 +30,7 @@ function ExpenseForm(props) {
     setAmount("");
     setDate("");
     setTitle("");
+    setAddExpense(false);
 
     props.newExpense(expenseData);
   };
