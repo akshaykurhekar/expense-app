@@ -6,21 +6,33 @@ import NewExpense from "./components/NewExpense/NewExpense";
 const initialExpense = [
   {
     id: 1,
-    title: "study material",
-    amount: 123.34,
-    date: new Date(2020, 2, 26),
+    title: "Note Books",
+    amount: 150.40,
+    date: new Date(2019, 2, 26),
   },
   {
     id: 2,
-    title: "Hostel Fee",
-    amount: 342.34,
+    title: "Milk expense",
+    amount: 200,
     date: new Date(2020, 1, 26),
   },
   {
     id: 3,
     title: "Room Rent",
-    amount: 345.34,
-    date: new Date(2020, 3, 26),
+    amount: 500.50,
+    date: new Date(2020, 4, 22),
+  },
+  {
+    id: 4,
+    title: "Electric Changes",
+    amount: 250.50,
+    date: new Date(2021, 3, 20),
+  },
+  {
+    id: 5,
+    title: "Food expense ",
+    amount: 450.22,
+    date: new Date(2021, 6, 21),
   },
 ];
 
